@@ -1018,7 +1018,7 @@ const SiburiApp = () => {
           }
         }
       }
-      else if (h_intensity <= 98) { // orange
+      else if (h_intensity < 90) { // orange
         if (s >= 60) {
           cfu_ml = '10⁵';
         }
@@ -1044,8 +1044,8 @@ const SiburiApp = () => {
           }
         }
       }
-      else if (h_intensity > 98) { // yellow
-        if (s >= 40) {
+      else if (h_intensity >= 90) { // yellow
+        if (s >= 35) {
           cfu_ml = '>=10⁶';
         }
         else {
