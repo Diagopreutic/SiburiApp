@@ -1168,7 +1168,7 @@ const SiburiApp = () => {
         <h1 className={styles.headingText}>SIBURI</h1>
         <h5 className={styles.headingText} 
           style={{ backgroundColor: '#d8e6f5', padding: '8px',borderRadius: '4px' }}>
-          Significant bacteriuria (SIBURI) denotes urine that has over 1 lakh bacteria per mL, which confirms a real infection.
+          Significant bacteriuria (SIBURI) denotes urine that has over 100,000 bacteria per mL, which confirms a real infection.
           Finding it early helps in giving antibiotics only when truly needed, and choose the right one.
         </h5>
         <p className={styles.Help}>
