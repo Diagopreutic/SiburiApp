@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 // Dynamically import the SiburiApp (client-only)
 const DynamicSiburiApp = dynamic(() => import('../components/SiburiApp'), {
   ssr: false,
-  loading: () => <p>Loading Color Picker...</p>
+  loading: () => <p>Loading SIBURI...</p>
 });
 
 export default function Home() {
@@ -25,10 +25,10 @@ export default function Home() {
 
       <main style={{ fontFamily: 'Arial, sans-serif' }}>
         {/*<h1 style={{ textAlign: 'center', color: '#333' }}>
-          Color Picker
+          SIBURI
         </h1>*/}
 
-        {isClient ? <DynamicSiburiApp /> : <p>Loading color picker...</p>}
+        {isClient ? <DynamicSiburiApp /> : <p>Loading SIBURI...</p>}
       </main>
     </div>
   );
