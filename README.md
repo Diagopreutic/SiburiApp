@@ -12,4 +12,4 @@ An application for identifying significant bacteriuria with the help of color an
    npm install next react react-dom
    npm run build
    npm start
-5. **Open in Browser:** Open http://localhost:3000/ in your web browser.
+5. **Open in Browser:** Open the provided link (e.g., http://localhost:3000/) in your web browser.
