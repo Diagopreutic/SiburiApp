@@ -131,7 +131,7 @@ function arrangeSelected(colorsSlct, annotStr) {
     const b = colorsSlct[i]?.b;
     
     let bgrd = '';
-    bgrd = (0.299 * r + 0.587 * g + 0.114 * b) > 128 ? "black" : "white"
+    bgrd = (0.299 * r + 0.587 * g + 0.114 * b) > 128 ? "black" : "white";
 
     finalVals.push([colorsSlct[i], annotStr[i + 1], bgrd]);
   }
