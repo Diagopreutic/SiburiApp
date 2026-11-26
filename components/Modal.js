@@ -82,7 +82,6 @@ export default function Modal({isOpen,onClose}) {
           <h3>Step 8: View Selected Colors</h3>
           <ol>
             <li>As you click on the image, selected colors will be displayed in the --View selected-- section.</li>
-            <li>Each color will show its rank (--S-- for sensitive, --R-- for resistance) and brightness level.</li>
             <li>A maximum of 100 colors can be selected. If you try to exceed this limit, a notification will appear.</li>
           </ol>
         </div>
